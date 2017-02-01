@@ -1,0 +1,8 @@
+﻿1. Open terminal, and navigate to folder with setup_t2.sh file (~/Documents/AWS/Spark/t2)
+2. sh setup_t2.sh
+3. Wait for the instance to be ready on AWS
+
+4. ssh into the instance using the command printed out by the bash script
+5. Run jupyter notebook
+6. Connect to jupyter on the browser using the instance address and port 8888 (password is dl_course)
+

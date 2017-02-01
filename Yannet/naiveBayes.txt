@@ -1,0 +1,13 @@
+P(class|doc) = (P(doc|class)*P(class))/P(doc)
+class_{Maximum A Posteriori} = argmax P(class|doc)
+                             = argmax (P(doc|class)*P(class))/P(doc)
+                             = argmax P(doc|class)*P(class)
+
+count(w, pos)
+count(w, neg)
+count(pos)
+count(neg)
+V
+P9w|c)=[count(w, c)+1] / [count(x) + V + 1]
+
+log P(c|d)  ~ sum_i log P(w_i|c) P(c))

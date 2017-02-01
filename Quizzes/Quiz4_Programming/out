@@ -1,0 +1,12 @@
+root
+ |-- id: integer (nullable = false)
+ |-- postId: integer (nullable = false)
+ |-- time: timestamp (nullable = true)
+ |-- voteType: integer (nullable = true)
+
++------+
+|postId|
++------+
+|  1340|
++------+
+

@@ -1,0 +1,10 @@
+root
+ |-- zip: integer (nullable = false)
+ |-- supervisor: integer (nullable = true)
+ |-- business_name: string (nullable = true)
+ |-- street: string (nullable = true)
+ |-- city: string (nullable = true)
+ |-- state: string (nullable = true)
+
+commented out. Had an error :(
+commented out. Had an error :(
